@@ -1,0 +1,23 @@
+To go to home directory we use = cd $home
+to select particular directory we use = cd foldername
+to see list of particular directory we use = ls
+to create folder name we use = mkdir foldername
+to create file in folder we use = touch filename
+to start working git we use = git init
+to create new repository on github we use = hub create
+to track file we use = git add --all
+to see the status of tracked/untracked files we use = git status
+before push we use commit command = git commit -m " any comment"
+we cannot find branch until we commit,to find branchname 
+we use = git branch
+to push we use = git push origin branchname
+====================================================================
+Branch
+it tells us how many branches we have in folder = git branch
+to create new branch we use = git branch newbranchname
+to select another branch we use = git checkout branchname
+to push branch on github we use = git push origin branchname 
+to rename any branch = git branch -m newbranchname 
+to switch branch = git checkout branchname
+to delete branch = git branch -d
+to delete branch permanetly = git branch -D
